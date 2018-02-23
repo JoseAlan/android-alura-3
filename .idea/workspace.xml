@@ -3,28 +3,39 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <target>android-15</target>
+        <target>android-27</target>
       </config>
     </shared>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="909c8683-9e80-489b-9b58-03a35188a9d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values-en/string.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_cardview_v7_27_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/DetalhesProvaActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ProvasActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/modelo/Prova.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhes_prova.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_prova.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_annotations_23_1_1_jar.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/adapter/AlunosAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/adapter/AlunosAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_lista_alunos.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_lista_alunos.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,25 +73,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list_item.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/list_item.xml">
+      <file leaf-file-name="ProvasActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ProvasActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1266#1834#0" expanded="true" />
+                <element signature="e#1833#1834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetalhesProvaActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/DetalhesProvaActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="e#1047#1055#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_lista_alunos.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_lista_alunos.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListaAlunosActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java">
+      <file leaf-file-name="Aluno.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/modelo/Aluno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#364#365#0" expanded="false" />
+                <element signature="e#389#390#0" expanded="false" />
+                <element signature="e#423#424#0" expanded="false" />
+                <element signature="e#451#452#0" expanded="false" />
+                <element signature="e#482#483#0" expanded="false" />
+                <element signature="e#509#510#0" expanded="false" />
+                <element signature="e#549#550#0" expanded="false" />
+                <element signature="e#581#582#0" expanded="false" />
+                <element signature="e#616#617#0" expanded="false" />
+                <element signature="e#647#648#0" expanded="false" />
+                <element signature="e#695#696#0" expanded="false" />
+                <element signature="e#735#736#0" expanded="false" />
+                <element signature="e#770#771#0" expanded="false" />
+                <element signature="e#801#802#0" expanded="false" />
+                <element signature="e#849#850#0" expanded="false" />
+                <element signature="e#889#890#0" expanded="false" />
+                <element signature="e#920#921#0" expanded="false" />
+                <element signature="e#947#948#0" expanded="false" />
+                <element signature="e#987#988#0" expanded="false" />
+                <element signature="e#1019#1020#0" expanded="false" />
+                <element signature="e#1050#1051#0" expanded="false" />
+                <element signature="e#1077#1078#0" expanded="false" />
+                <element signature="e#1117#1118#0" expanded="false" />
+                <element signature="e#1149#1150#0" expanded="false" />
+                <element signature="e#1187#1188#0" expanded="false" />
+                <element signature="e#1221#1222#0" expanded="false" />
+                <element signature="e#1275#1276#0" expanded="false" />
+                <element signature="e#1321#1322#0" expanded="false" />
+                <element signature="e#1367#1368#0" expanded="false" />
+                <element signature="e#1417#1418#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,18 +159,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="77" lean-forward="true" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+            <state relative-caret-position="85">
+              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -115,6 +173,7 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="valueResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1841,11 +1900,19 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-land/list_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/adapter/AlunosAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-en/string.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_formulario.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_prova.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/modelo/Prova.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ProvaActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_lista_alunos.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detalhes_prova.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/DetalhesProvaActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ProvasActivity.java" />
       </list>
     </option>
   </component>
@@ -1873,8 +1940,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1883,62 +1949,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-alura-3" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-alura-3" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-alura-3" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_item.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2003,7 +2019,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -2032,12 +2047,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="device.picker.selection" value="920110e97003534a" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="br.com.alura.agenda" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2122,7 +2147,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519259728681" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519345644546" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2170,7 +2195,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519259728681" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519345644546" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2353,7 +2378,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519259728682" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519345644546" />
       </method>
     </configuration>
     <list size="1">
@@ -2415,7 +2440,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2448,6 +2473,147 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ProvasActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1266#1834#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_lista_alunos.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_prova.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/modelo/Prova.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/modelo/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#364#365#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+            <element signature="e#735#736#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#987#988#0" expanded="false" />
+            <element signature="e#1019#1020#0" expanded="false" />
+            <element signature="e#1050#1051#0" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
+            <element signature="e#1117#1118#0" expanded="false" />
+            <element signature="e#1149#1150#0" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1221#1222#0" expanded="false" />
+            <element signature="e#1275#1276#0" expanded="false" />
+            <element signature="e#1321#1322#0" expanded="false" />
+            <element signature="e#1367#1368#0" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lista_alunos.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/list_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lista_alunos.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="77" lean-forward="true" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/list_item.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2543,13 +2709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/modelo/Aluno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/dao/AlunoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -2561,17 +2720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="38" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -2592,29 +2740,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_formulario.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/list_item.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
-          <folding>
-            <element signature="e#1234#1254#0" expanded="true" />
-            <element signature="e#1432#1456#0" expanded="true" />
-            <element signature="e#1638#1662#0" expanded="true" />
-            <element signature="e#1844#1864#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="935">
+          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_lista_alunos.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="77" lean-forward="false" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -2630,26 +2770,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_formulario.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="10" column="64" lean-forward="true" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/FormularioActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="77" lean-forward="true" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -2659,20 +2812,122 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/list_item.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/modelo/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#364#365#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+            <element signature="e#735#736#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#987#988#0" expanded="false" />
+            <element signature="e#1019#1020#0" expanded="false" />
+            <element signature="e#1050#1051#0" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
+            <element signature="e#1117#1118#0" expanded="false" />
+            <element signature="e#1149#1150#0" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1221#1222#0" expanded="false" />
+            <element signature="e#1275#1276#0" expanded="false" />
+            <element signature="e#1321#1322#0" expanded="false" />
+            <element signature="e#1367#1368#0" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="89" column="44" lean-forward="true" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_prova.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/modelo/Prova.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_lista_alunos.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detalhes_prova.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/DetalhesProvaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="e#1047#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/alura/agenda/ProvasActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1266#1834#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
