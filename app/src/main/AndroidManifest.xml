@@ -33,7 +33,8 @@
         <activity
             android:name=".ProvasActivity"
             android:label="@string/title_activity_prova" />
-        <activity android:name=".DetalhesProvaActivity"></activity>
+        <activity android:name=".DetalhesProvaActivity" />
+        <activity android:name=".ProvasTabletActivity"></activity>
     </application>
 
 </manifest>
