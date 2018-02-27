@@ -41,4 +41,26 @@ public class ProvasActivity extends AppCompatActivity {
     }
 
 
+    public void selecionaProva(Prova prova) {
+        FragmentManager manager = getSupportFragmentManager();
+        if(!estaNoModoPaisagem()){
+            android.support.v4.app.FragmentTransaction tx = manager.beginTransaction();
+
+            DetalheProvasFragment detalheFragment = new DetalheProvasFragment();
+            Bundle parametros = new Bundle();
+            parametros.putSerializable("prova", prova);
+            detalheFragment.setArguments(parametros);
+
+            tx.replace(R.id.frame_principal, detalheFragment );
+            tx.commit();
+        }else{
+            DetalheProvasFragment detalheFragment =
+                    (DetalheProvasFragment) manager.findFragmentById(R.id.frame_secundario);
+            detalheFragment.populaCamposCom(prova);
+
+        }
+
+
+
+    }
 }
