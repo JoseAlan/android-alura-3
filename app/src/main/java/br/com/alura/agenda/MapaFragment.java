@@ -23,6 +23,7 @@ import br.com.alura.agenda.modelo.Aluno;
  */
 
 public class MapaFragment extends SupportMapFragment implements OnMapReadyCallback {
+    private GoogleMap mapa;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,12 +33,10 @@ public class MapaFragment extends SupportMapFragment implements OnMapReadyCallba
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-
-
+        this.mapa = mapa;
         LatLng posicaoDaEscola = pegaCoordenadaDoEndereco("Rua da Conceição 1228, São Miguel, Juazeiro do Norte");
         if (posicaoDaEscola != null) {
-            CameraUpdate update = CameraUpdateFactory.newLatLngZoom(posicaoDaEscola, 17);
-            googleMap.moveCamera(update);
+            centralizaEm(posicaoDaEscola);
         }
 
         AlunoDAO alunoDAO = new AlunoDAO(getContext());
@@ -54,6 +53,14 @@ public class MapaFragment extends SupportMapFragment implements OnMapReadyCallba
             }
         }
         alunoDAO.close();
+       new Localizador(getContext(), this);
+    }
+
+    public void centralizaEm(LatLng coordenada) {
+        if (mapa != null) {
+            CameraUpdate update = CameraUpdateFactory.newLatLngZoom(coordenada, 10);
+            mapa.moveCamera(update);
+        }
     }
 
     private LatLng pegaCoordenadaDoEndereco(String endereco) {
